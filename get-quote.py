@@ -7,7 +7,7 @@ def primary():
   quotes = f.readlines()
   f.close()
 
-  last = 20
+  last = 25
   rnd = random.randint(0, last)
   print(quotes[rnd])
 
